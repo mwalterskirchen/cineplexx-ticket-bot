@@ -7,4 +7,4 @@ It's using Puppeteer to check every 10 minutes for new tickets in the background
 
 ---
 
-## How to use it
+
