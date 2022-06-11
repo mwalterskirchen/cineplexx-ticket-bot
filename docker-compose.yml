@@ -1,0 +1,9 @@
+version: "3"
+services:
+  puppeteer:
+    build: .
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - DISCORD_CHANNEL_ID=${DISCORD_CHANNEL_ID}
+      - STATE=${STATE}
+      - MOVIE_ID=${MOVIE_ID}
